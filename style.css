@@ -18,6 +18,14 @@ section a:hover {
     cursor:pointer;  
 }
 
+.section-header {
+    text-align: center;
+    margin: 0 0 50px;
+    color: #0275d8;
+    /* border-bottom: #000 5px solid; */
+   
+}
+
 /* #home{
 	background:#306d9f7e no-repeat center center fixed;
     background-size: cover;
@@ -28,6 +36,7 @@ section a:hover {
     margin-top: -50px;
     text-shadow: 2px 1px 2px #000;
     font-size: 5em;
+    color: burlywood;
 }
 .title > h3{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -36,7 +45,7 @@ section a:hover {
 
 
 #home{
-	background:url(images/Horizon-Sunset-Wallpaper-1920-x-1200.jpg)repeat center center fixed;
+	background:url(images/background.jpg)repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
