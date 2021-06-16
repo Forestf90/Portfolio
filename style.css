@@ -16,8 +16,8 @@ body {
 
 ul.nav a:hover,
 ul.nav a:focus {
-  color: black !important;
-  background-color: #f0ead6 !important;
+  /* color: black !important; */
+  background-color: #e1ac02 !important;
 }
 
 i {
@@ -43,7 +43,6 @@ section a:hover {
 
 
 .title > h1 {
-  margin-top: -50px;
   text-shadow: 2px 1px 2px #000;
   font-size: 5em;
   color: #e1ac02;
@@ -79,12 +78,16 @@ section a:hover {
   padding: 200px 0;
 }
 
+.logo {
+  max-height: 200px;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 
 .text-muted {
