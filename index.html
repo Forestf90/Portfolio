@@ -14,8 +14,7 @@
 
 
 <body>
-
-    <nav class="navbar navbar-expand-md navbar-toggleable-md fixed-top navbar-dark bg-dark text-right">
+    <nav class="navbar navbar-expand-md fixed-top navbar-custom text-right">
         <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
                 <a href="#about" class="nav-link">About</a>
@@ -33,9 +32,8 @@
     </nav>
 
 
-    <div class="container-fluid">
-		<hr class="featurette-divider">
-		<div id="home" name = "home" class="row featurette">
+ 
+		<div id="home" name = "home" class="row">
 			<div class="d-flex flex-column justify-content-center align-items-center title">
 				<h1>Michał Śliwa</h1>
                 <h3>Software developer</h3>
@@ -56,300 +54,311 @@
                 </section>
             </div>
 		</div>
-    </div>
 
-    <div id="about" name = "about" class="row featurette pad-section">
-        <div class="col-md-offset-2">
-            <h1 class="section-header"> About </h1>
+   <div class="container-fluid">
+
+        <div id="about" name = "about" class="row featurette pad-section">
+            <div class="col-md-offset-2">
+                <h1 class="section-header"> About </h1>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col col-md-6">
+                        <p class = "lead"> I am a graduate of IT studies at the University of Bielsko-Biała and Cracow University of Technology.
+                            I started my adventure with programming 10 years ago. So far I have worked as a Java and .NET programmer.
+                            In my free time I try my hand at game development. However, I am open to learning new, yet unknown to me technologies.
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/ja.jpg" class="rounded-circle img-fluid" alt="I">
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="technology" name = "technology" class="row featurette pad-section">
+            <h1 class="section-header"> Technology </h1>
             <div class="row justify-content-center align-items-center">
-                <div class="col col-md-6">
-                    <p class = "lead"> A graduate of IT studies at the University of Bielsko-Biała and Cracow University of Technology.
-                         I started my adventure with programming 10 years ago. So far I have worked as a Java and .NET developer,
-                          and in my free time I try my hand at game development. However, I am open to learning new technologies, not known to me yet. 
-                    </p>
+                <div class="col-md-2">
+                    <img src="images/tech/net_core.png" class="img-fluid logo" alt="I">
                 </div>
                 <div class="col-md-2">
-                    <img src="images/ja.jpg" class="rounded-circle img-fluid" alt="I">
+                    <img src="images/tech/csharp.png" class="img-fluid logo" alt="I">
                 </div>
+                <div class="col-md-2">
+                    <img src="images/tech/wpf.png" class="img-fluid logo" alt="I">
                 </div>
-        </div>
-    </div>
-
-
-
-
-<div id="technology" name = "technology" class="row featurette pad-section">
-    <h1 class="section-header"> Technology </h1>
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-2">
-            <img src="images/tech/net_core.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/csharp.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/wpf.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/asp.png" class="img-fluid logo" alt="I">
-        </div>
-    </div>
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-2">
-            <img src="images/tech/java.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/spring.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/spring_boot.png" class="img-fluid logo" alt="I">
-        </div>
-    </div>
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-2">
-            <img src="images/tech/sql.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/git.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/python.png" class="img-fluid logo" alt="I">
-        </div>
-    </div>
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-2">
-            <img src="images/tech/pygame.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/libgdx.png" class="img-fluid logo" alt="I">
-        </div>
-        <div class="col-md-2">
-            <img src="images/tech/unity.png" class="img-fluid logo" alt="I">
-        </div>
-    </div>
-</div>
-
-<div id="projects" name = "projects" class="row featurette pad-section justify-content-center align-items-centers">
-
-        <h1 class="section-header"> Projects </h1>
-        <div class="col col-md-8">
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/bomberman.gif" class="card-img-top" alt="Bomberman">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/Bomberman">
-                                <h5 class="card-title">Bomberman</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Bomberman remake with basic AI. Part of my Engineer's thesis.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-success">Python</span>
-                            <span class="badge rounded-pill bg-success">Pygame</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/asp.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/snitch.png" class="card-img-top" alt="Snitch Manager">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/SnitchManager">
-                                <h5 class="card-title">Snitch Manager</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">An application for collecting points for reporting on colleagues, inspired by a meme.
-                                University project created by a group of 3 people where I was responsible for application backend.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-warning text-dark">Java</span>
-                            <span class="badge rounded-pill bg-warning text-dark">Spring Boot</span>
-                            <span class="badge rounded-pill bg-warning text-dark">Gradle</span>
-                            <span class="badge rounded-pill bg-secondary">Vue.js</span>
-                            <span class="badge rounded-pill bg-secondary">Vuex</span>
-                            <span class="badge rounded-pill bg-light text-dark">MySQL</span>
-                        </div>
-                    </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2">
+                    <img src="images/tech/java.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/chat_noit.gif" class="card-img-top" alt="Chat Noir">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/ChatNoir">
-                                <h5 class="card-title">Chat Noir</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Puzzle game with path-finding algoritms, dedicated for mobile device. Part of my Engineer's thesis.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-warning text-dark">Java</span>
-                            <span class="badge rounded-pill bg-warning text-dark">libGDX</span>
-                            <span class="badge rounded-pill bg-warning text-dark">Gradle</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/spring.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/mst.gif" class="card-img-top" alt="MST">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/MinimalSpanningTree">
-                                <h5 class="card-title">Minimal Spanning Tree</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">The program uses the Kruskal algorithm to find the minimum spanning tree in graph that can be traced step by step.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-primary">C#</span>
-                            <span class="badge rounded-pill bg-primary">WinForms</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/spring_boot.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/chess.gif" class="card-img-top" alt="Chess">
-                        <div class="card-body">
-                            <a href="...">
-                                <h5 class="card-title">Chess</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Chess implementation thats allow to play with AI, two people on one computer or via LAN. Project made by 2 students.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-warning text-dark">Java</span>
-                            <span class="badge rounded-pill bg-warning text-dark">Swing</span>
-                        </div>
-                    </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2">
+                    <img src="images/tech/sql.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/tcp.jpg" class="card-img-top" alt="TCP">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/ChatTCP">
-                                <h5 class="card-title">Chat TCP</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Simple text chat based on client server architecture and TCP protocol.
-                                Both client and server applications are written in Winforms and support asynchronous.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-primary">C#</span>
-                            <span class="badge rounded-pill bg-primary">WinForms</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/git.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/consult.png" class="card-img-top" alt="Consultations">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/Consultations">
-                                <h5 class="card-title">Consultations</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Aplication to make an appointments for a consultaions. Designated for students and teachers.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-primary">C#</span>
-                            <span class="badge rounded-pill bg-primary">ASP.NET Core</span>
-                            <span class="badge rounded-pill bg-secondary">Razor Pages</span>
-                            <span class="badge rounded-pill bg-light text-dark">SQLite</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/python.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/snake.gif" class="card-img-top" alt="TCP">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/Snake">
-                                <h5 class="card-title">Snake</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Simple Snake game. Made for learning purpose.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-success">Python</span>
-                            <span class="badge rounded-pill bg-success">Pygame</span>
-                        </div>
-                    </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2">
+                    <img src="images/tech/pygame.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/missile.gif" class="card-img-top" alt="Missile Command">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/MissileCommand">
-                                <h5 class="card-title">Missile Command</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Remake of old Atari game with basic logic.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-success">Python</span>
-                            <span class="badge rounded-pill bg-success">Pygame</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/libgdx.png" class="img-fluid logo" alt="I">
                 </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="images/projects/find_tre.gif" class="card-img-top" alt="FindTreasure">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/FindTreasure">
-                                <h5 class="card-title">Find Treasure</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Multiplayer browser clicker game.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-secondary">JavaScript</span>
-                            <span class="badge rounded-pill bg-secondary">Node.js</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="" class="card-img-top" alt="Carpet">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/PasjansDywan">
-                                <h5 class="card-title">Pasjans Dywan</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Carpet solitaire.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-danger">C++</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-2">
-                    <div class="card h-100">
-                        <img src="" class="card-img-top" alt="Pacman">
-                        <div class="card-body">
-                            <a href="https://github.com/Forestf90/Pacman">
-                                <h5 class="card-title">Pacman</h5>
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <p class="card-text">Console version of Pacman. One of my first written game.</p>
-                        </div>
-                        <div class="card-footer">
-                            <span class="badge rounded-pill bg-danger">C++</span>
-                        </div>
-                    </div>
+                <div class="col-md-2">
+                    <img src="images/tech/unity.png" class="img-fluid logo" alt="I">
                 </div>
             </div>
         </div>
 
-</div>
+        <div id="projects" name = "projects" class="row featurette pad-section justify-content-center align-items-centers">
+            <h1 class="section-header"> Projects </h1>
+            <div class="col col-md-8">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/bomberman.gif" class="card-img-top" alt="Bomberman">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/Bomberman">
+                                    <h5 class="card-title">Bomberman</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Bomberman remake with basic AI. Part of my Engineer's thesis.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-success">Python</span>
+                                <span class="badge rounded-pill bg-success">Pygame</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/snitch.png" class="card-img-top" alt="Snitch Manager">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/SnitchManager">
+                                    <h5 class="card-title">Snitch Manager</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">An application for collecting points for reporting on colleagues, inspired by a meme.
+                                    University project created by a group of 3 people where I was responsible for application backend.</p>
+                            </div>
+                            <div class="card-footer d-flex">
+                                <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                                <span class="badge rounded-pill bg-warning text-dark">Spring Boot</span>
+                                <span class="badge rounded-pill bg-warning text-dark">Gradle</span>
+                                <span class="badge rounded-pill bg-secondary">Vue.js</span>
+                                <span class="badge rounded-pill bg-secondary">Vuex</span>
+                                <span class="badge rounded-pill bg-light text-dark">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/chat_noit.gif" class="card-img-top" alt="Chat Noir">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/ChatNoir">
+                                    <h5 class="card-title">Chat Noir</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Puzzle game with path-finding algoritms, dedicated for mobile device. Part of my Engineer's thesis.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                                <span class="badge rounded-pill bg-warning text-dark">libGDX</span>
+                                <span class="badge rounded-pill bg-warning text-dark">Gradle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/mst.gif" class="card-img-top" alt="MST">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/MinimalSpanningTree">
+                                    <h5 class="card-title">Minimal Spanning Tree</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">The program uses the Kruskal algorithm to find the minimum spanning tree in graph that can be traced step by step.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-primary">C#</span>
+                                <span class="badge rounded-pill bg-primary">WinForms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/chess.gif" class="card-img-top" alt="Chess">
+                            <div class="card-body">
+                                <a href="...">
+                                    <h5 class="card-title">Chess</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Chess implementation thats allow to play with AI, two people on one computer or via LAN. Project made by 2 students.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                                <span class="badge rounded-pill bg-warning text-dark">Swing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/tcp.jpg" class="card-img-top" alt="TCP">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/ChatTCP">
+                                    <h5 class="card-title">Chat TCP</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Simple text chat based on client server architecture and TCP protocol.
+                                    Both client and server applications are written in Winforms and support asynchronous.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-primary">C#</span>
+                                <span class="badge rounded-pill bg-primary">WinForms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/consult.png" class="card-img-top" alt="Consultations">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/Consultations">
+                                    <h5 class="card-title">Consultations</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Aplication to make an appointments for a consultaions. Designated for students and teachers.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-primary">C#</span>
+                                <span class="badge rounded-pill bg-primary">ASP.NET Core</span>
+                                <span class="badge rounded-pill bg-secondary">Razor Pages</span>
+                                <span class="badge rounded-pill bg-light text-dark">SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/snake.gif" class="card-img-top" alt="TCP">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/Snake">
+                                    <h5 class="card-title">Snake</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Simple Snake game. Made for learning purpose.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-success">Python</span>
+                                <span class="badge rounded-pill bg-success">Pygame</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/missile.gif" class="card-img-top" alt="Missile Command">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/MissileCommand">
+                                    <h5 class="card-title">Missile Command</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Remake of old Atari game with basic logic.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-success">Python</span>
+                                <span class="badge rounded-pill bg-success">Pygame</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/find_tre.gif" class="card-img-top" alt="FindTreasure">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/FindTreasure">
+                                    <h5 class="card-title">Find Treasure</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Multiplayer browser clicker game with client-server architecture.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-secondary">JavaScript</span>
+                                <span class="badge rounded-pill bg-secondary">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/carpet.gif" class="card-img-top" alt="Carpet">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/PasjansDywan">
+                                    <h5 class="card-title">Pasjans Dywan</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Carpet solitaire. </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-danger">C++</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card h-100">
+                            <img src="images/projects/pacman.gif" class="card-img-top" alt="Pacman">
+                            <div class="card-body">
+                                <a href="https://github.com/Forestf90/Pacman">
+                                    <h5 class="card-title">Pacman</h5>
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <p class="card-text">Console version of Pacman. One of my first written game.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="badge rounded-pill bg-danger">C++</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
 
-<div id="contact" name = "contact" class="row featurette pad-section">
-        <h1 class="section-header"> Contact </h1>
-        <h2>email: michalsliwa96@gmail.com</h2>
-</div>
+        <div id="contact" name = "contact" class="row pad-section">
+            <h1 class="section-header"> Contact </h1>
+            <div class="d-flex flex-column justify-content-center align-items-center title">
+                <section class="mb-4">
+                    <h2 class="d-flex align-items-center">
+                        <a href="mailto:michalsliwa96@gmail.com" class="text-warning">
+                        <i class="bi bi-envelope-fill"></i>
+                        </a>
+                        michalsliwa96@gmail.com
+                    </h2>
+                    <h2 class="d-flex align-items-center">
+                        <a href="https://discord.com/users/Forestf#2731" class="text-primary">
+                        <i class="bi bi-discord"></i>
+                        </a>
+                        Forestf#2731
+                    </h2>
+                </section>
 
-<footer class="bg-dark text-center">
-    Michał Śliwa 2021
-</footer>
-                
-
-
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Michał Śliwa 2021
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
