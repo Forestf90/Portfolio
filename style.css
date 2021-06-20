@@ -11,6 +11,14 @@ body {
   background-color: #e1ac02 !important;
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
 .nav-item a{
   color: #e1ac02 !important;
   font-size: 1.4em;
@@ -54,7 +62,7 @@ section a:hover,
 
 .title > h1 {
   text-shadow: 2px 1px 2px #000;
-  font-size: 5em;
+  font-size: 5;
   color: #e1ac02;
 }
 .title > h3 {
@@ -89,7 +97,7 @@ section a:hover,
 }
 
 .logo {
-  max-height: 200px;
+  max-height: 150px;
 }
 
 .footer {
