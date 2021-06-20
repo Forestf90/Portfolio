@@ -7,7 +7,7 @@ body {
 
 .nav-item a:hover,
 .nav-item a:focus {
-  color: #0b2434 !important;
+  color: #12305a !important;
   background-color: #e1ac02 !important;
 }
 
@@ -67,15 +67,15 @@ section a:hover,
 
 #home {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
 #home::before {
   content: '';
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   background-image: url(images/background.png);
   background-size: cover;
@@ -100,15 +100,6 @@ section a:hover,
   text-align: center;
   color:#e1ac02;
   background-color: #12305a;
-}
-
-.text-muted {
-  margin-top: 10px;
-  margin-left: 15px;
-}
-.text-muted a {
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 
